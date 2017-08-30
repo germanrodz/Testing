@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.blovvme.testing.MainActivity">
+
+    <EditText
+        android:hint="number1"
+        android:layout_weight="1"
+        android:id="@+id/etNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <EditText
+        android:hint="number2"
+        android:id="@+id/etNumber2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="Addition"
+        android:onClick="doCalculations"
+        android:id="@+id/btnAddition"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="Subtraction"
+        android:id="@+id/btnSubtraction"
+        android:onClick="doCaclculations"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="Multiplication"
+        android:onClick="doCalculations"
+        android:id="@+id/btnMultiplication"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="DIVIDE"
+        android:onClick="doCalculations"
+        android:id="@+id/btnDivide"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+
+        android:text="RESULT:"
+        android:layout_weight="1"
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <EditText
+        android:hint="result"
+        android:id="@+id/etResult"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btnToSecond"
+        android:onClick="gotoSecond"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
